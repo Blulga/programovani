@@ -38,7 +38,7 @@ function setup() {
     size(1400, 700);
 
     new GameObject(width / 2, height - 5)
-    .addComponent(new RectRenderer(width, 10, () => {
+    .addComponent(new RectRenderer(width, 10, function() {
         noStroke(0);
         fill(0, 255, 0);
     }))
